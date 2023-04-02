@@ -69,9 +69,12 @@
 color: #fff;
 }
 
-
-
 .rightpic {
   float: right; /* Выравнивание по правому краю */
   margin: 0 0 5px 5px; /* Отступы вокруг фотографии */
+}
+
+.img {
+  margin: 10px auto 20px;
+  display: block;
 }
