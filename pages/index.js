@@ -27,7 +27,7 @@ export default function Home() {
           </div>
       </header>
 
-      <h1 className={styles.wrapper}>Next.js</h1>
+      <h3 className={styles.wrapper}>Сайт будт в разработке, может быть с багами ;)</h3>
 
     </>
   )
