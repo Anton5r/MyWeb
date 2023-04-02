@@ -19,9 +19,10 @@ export default function Home() {
           <div>
               <a href="https://urtt.ru" className={styles.logo}>УРТК.ру</a>
               <div className={styles.headerr}>
-                  <a href="../">Home</a>
-                  <a href="../posts">Contact</a>
-                  <a href="#about">About</a>
+                  <a href="../">Главная</a>
+                  <a href="../posts">Лабы по Кс</a>
+                  <a href="../about/about">Тфу-пдф</a>
+                  <a href="../ter ">Тер-Вер</a>
               </div>
           </div>
       </header>

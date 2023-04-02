@@ -4,6 +4,12 @@
   align-items: center;
 }
 
+.linkp {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 /* Menu */
 .header {
   overflow: hidden;
@@ -50,4 +56,22 @@
   .headerr {
     float: none;
   }
+}
+
+/* Страница posts ссылки на файлы  */
+.file {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.file:visited {
+color: #fff;
+}
+
+
+
+.rightpic {
+  float: right; /* Выравнивание по правому краю */
+  margin: 0 0 5px 5px; /* Отступы вокруг фотографии */
 }
