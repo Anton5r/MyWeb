@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-import pic from '@/public/tfy-1.jpg'
+import Script from 'next/script'
 
 
 export default function Home() {
@@ -14,6 +14,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      
+
       
       <header className={styles.header}>
           <div>
@@ -23,6 +26,7 @@ export default function Home() {
                   <a href="../posts">Лабы по Кс</a>
                   <a href="../about/about">Тфу-пдф</a>
                   <a href="../ter ">Тер-Вер</a>
+                  <a href="../test">Тест</a>
               </div>
           </div>
       </header>
