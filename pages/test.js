@@ -8,15 +8,6 @@ import React from 'react'
 
 export default function Home() {
 
-    function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
-        }
-    }
-
     function functionName() {
         document.write("You are learning how to call JavaScript function in html");
     }
@@ -59,7 +50,7 @@ export default function Home() {
     <a href="#news">News</a>
     <a href="#contact">Contact</a>
     <a href="#about">About</a>
-    <a href="javascript:void(0);" className={styles.icon} onclick={myFunction}>
+    <a href="javascript:void(0);" className={styles.icon} onclick="">
         <i className={styles.fafabars}></i>
     </a>
     </div> 
