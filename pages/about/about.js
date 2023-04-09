@@ -1,8 +1,8 @@
-import styles from '@/styles/Home.module.css'
-import pic from '@/public/tfy-1.jpg'
-import pic2 from '@/public/tfy-2.jpg'
-import pic3 from '@/public/tfy-3.jpg'
-import pic4 from '@/public/tfy-4.jpg'
+import styles from '../../styles/Home.module.css'
+import pic from '../../public/tfy-1.jpg'
+import pic2 from '../../public/tfy-2.jpg'
+import pic3 from '../../public/tfy-3.jpg'
+import pic4 from '../../public/tfy-4.jpg'
 import Image from 'next/image'
 
 
