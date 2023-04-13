@@ -16,8 +16,6 @@ export default function Home() {
       </Head>
 
       
-
-      
       <header className={styles.header}>
           <div>
               <a href="https://urtt.ru" className={styles.logo}>УРТК.ру</a>
@@ -32,8 +30,9 @@ export default function Home() {
           </div>
       </header>
 
-      <h3 className={styles.wrapper}>Это Офф сайт, теперь он будет в разработке, может быть с багами ;)</h3><br/>
-      <h3 className={styles.wrapper}> Свои пожелание можите писть в эот документ<a className={styles.linkp} href='https://docs.google.com/document/d/1bLCrUSJLMVvlqmtuWQTLDH5-fipGSvAw9_s55L0g2Wc/edit?usp=share_link'>ТЫК</a></h3>
+    <div className={styles.flexcontainer}>
+      <h1>Привет 👋</h1>
+    </div>
 
     </>
   )
