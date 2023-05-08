@@ -21,9 +21,12 @@ export default function About () {
               </div>
           </div>
         </header>
-        <h2 className={styles.wrapper}>Тут пример работы и объяснение формул</h2>
 
-        <p>ссылка на работа<a href="https://drive.google.com/drive/folders/19PqNSgu_kcMM7wmbY60beGVn2jrVvHXp">tyt</a></p>
+        <p className={styles.headerp}> Новы лабы
+            <a href='https://drive.google.com/drive/folders/126F_FECC5_MvtO2mDkwVvjhd5HA1CcLN?usp=sharing'>Лабы</a>
+        </p>
+
+        <h2 className={styles.wrapper}>Тут пример работы и объяснение формул</h2>
         <Image className={styles.img} src={pic} alt='Error PNG' width={600} height={750}/>
         <Image className={styles.img} src={pic2} alt='Error PNG' width={600} height={750}/>
         <Image className={styles.img} src={pic3} alt='Error PNG' width={600} height={750}/>
