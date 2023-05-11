@@ -27,7 +27,7 @@ export default function Posts () {
         <div className={styles.linkp}>
         <h3>Сделано</h3>
         <p>
-        <a className={styles.file} href="https://docs.google.com/document/d/1Vrh-GanYRlfdI7RmjjDmPVCpijpEM4Cm/edit?usp=share_link&ouid=106894929838315556260&rtpof=true&sd=true">1) Лаба</a><br/>
+        <a className={styles.file} href="https://docs.google.com/document/d/1JqF3Qyd0IvYO4PzMhy4oQNRJFEA8t-zC/edit?usp=drivesdk&ouid=106894929838315556260&rtpof=true&sd=true">1) Лаба</a><br/>
         <a className={styles.file} href="https://docs.google.com/document/d/1FvhYBm0atFC_rM4agUMGJsRHm7kLW0JI/edit?usp=share_link&ouid=106894929838315556260&rtpof=true&sd=true">2) Лаба</a><br/>
         <a className={styles.file} href="https://docs.google.com/document/d/1RdF4jfyH3gI6H0bQhMQ4-QwZdm3frP0M/edit?usp=share_link&ouid=106894929838315556260&rtpof=true&sd=true">3) Лаба</a><br/>
         <a className={styles.file} href="https://docs.google.com/document/d/1g8jJ_YblKxb6B8h228F3YTPf2ALEJ73J/edit?usp=share_link&ouid=106894929838315556260&rtpof=true&sd=true">5) Лаба</a><br/>
