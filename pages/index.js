@@ -32,6 +32,7 @@ export default function Home() {
 
     <div className={styles.flexcontainer}>
       <h1>Привет 👋</h1>
+      <h1>В скором времени появится игра на сайте </h1>
     </div>
 
     </>
