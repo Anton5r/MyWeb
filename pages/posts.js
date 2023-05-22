@@ -27,14 +27,12 @@ export default function Posts () {
         <div className={styles.linkp}>
         <h3>Сделано</h3>
         <p>
-        <a className={styles.file} href="https://docs.google.com/document/d/1JqF3Qyd0IvYO4PzMhy4oQNRJFEA8t-zC/edit?usp=drivesdk&ouid=106894929838315556260&rtpof=true&sd=true">1) Лаба</a><br/>
-        <a className={styles.file} href="https://docs.google.com/document/d/1FvhYBm0atFC_rM4agUMGJsRHm7kLW0JI/edit?usp=share_link&ouid=106894929838315556260&rtpof=true&sd=true">2) Лаба</a><br/>
-        <a className={styles.file} href="https://docs.google.com/document/d/1RdF4jfyH3gI6H0bQhMQ4-QwZdm3frP0M/edit?usp=share_link&ouid=106894929838315556260&rtpof=true&sd=true">3) Лаба</a><br/>
+        <a className={styles.file} href="https://docs.google.com/document/d/1c1kyZ7sHxYRE2h2hdAwwGW0ZrrVf40k1/edit?usp=sharing&ouid=106894929838315556260&rtpof=true&sd=true">1) Лаба</a><br/>
+        <a className={styles.file} href="https://docs.google.com/document/d/1C_Tg_KowpE2da9BZKeBZL4KlnNcYIv_D/edit?usp=sharing&ouid=106894929838315556260&rtpof=true&sd=true">2) Лаба</a><br/>
+        <a className={styles.file} href="https://docs.google.com/document/d/1-8rJjW9gaKo2x5N2S0FFzLngMD84TPae/edit?usp=sharing&ouid=106894929838315556260&rtpof=true&sd=true">3) Лаба</a><br/>
         <a className={styles.file} href="https://docs.google.com/document/d/1g8jJ_YblKxb6B8h228F3YTPf2ALEJ73J/edit?usp=share_link&ouid=106894929838315556260&rtpof=true&sd=true">5) Лаба</a><br/>
         <a className={styles.file} href="https://docs.google.com/document/d/1R1EjYaSkg-8r5ZvzNP-p15Xc_-fP8L8Z/edit?usp=sharing&ouid=106894929838315556260&rtpof=true&sd=true">7) Лаба</a><br/>
         </p>
-
-        <h3>В процессе</h3>
         <p className='sizefile'>
             <a className={styles.file} href="https://docs.google.com/document/d/1c--nub_9k0iS1UgOBBe39FimcPPF6s0g/edit?usp=sharing&ouid=106894929838315556260&rtpof=true&sd=true">4) Лаба</a><br/>
             <a className={styles.file} href="https://docs.google.com/document/d/1OGuz5PwZkJcjZOu6dWMm7gETeY8J4aqO/edit?usp=sharing&ouid=106894929838315556260&rtpof=true&sd=true">6) Лаба</a><br/>
