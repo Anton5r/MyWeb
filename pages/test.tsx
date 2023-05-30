@@ -6,6 +6,7 @@ import Script from 'next/script'
 import React from "react";
 import React, { ReactElement } from 'react'
 import ReactDOM from 'react-dom'
+import style from '../styles/styles.css'
 
 export default function TEST() {
 
