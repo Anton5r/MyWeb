@@ -78,7 +78,7 @@ export default function TEST() {
       Нажми на меня
     </a>
 
-    <div id='root'></div>
+    <div id='root'>asd</div>
 
     </>
   )
