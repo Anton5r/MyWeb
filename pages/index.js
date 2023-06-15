@@ -1,8 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
 import styles from '../styles/Home.module.css'
-import Script from 'next/script'
 
 
 export default function Home() {
@@ -25,7 +22,7 @@ export default function Home() {
                   <a href="../about/about">Тфу-пдф</a>
                   <a href="../ter ">Тер-Вер</a>
                   <a href="../test">Тест</a>
-                  <a href='../about/test'>Лаба по Груздю</a>
+                  <a href='../about/laba'>Лаба по Груздю</a>
               </div>
           </div>
       </header>
