@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import styles from '../styles/Home.module.css'
+import styles from '../../styles/Home.module.css'
 import Script from 'next/script'
 
 
@@ -25,15 +25,11 @@ export default function Home() {
                   <a href="../about/about">Тфу-пдф</a>
                   <a href="../ter ">Тер-Вер</a>
                   <a href="../test">Тест</a>
-                  <a href='../about/test'>test jsx</a>
               </div>
           </div>
       </header>
 
-    <div className={styles.flexcontainer}>
-      <h1>Привет 👋</h1>
-      <h1>В скором времени появится игра на сайте!</h1>
-    </div>
+      <a className={styles.flex_a} href='https://drive.google.com/file/d/18FcnHJzaiZutscGQcX_zIR_cpaMJJJh5/view?usp=sharing'>Лаба №3</a>
 
     </>
   )

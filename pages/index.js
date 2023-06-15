@@ -25,7 +25,7 @@ export default function Home() {
                   <a href="../about/about">Тфу-пдф</a>
                   <a href="../ter ">Тер-Вер</a>
                   <a href="../test">Тест</a>
-                  <a href='../about/test'>test jsx</a>
+                  <a href='../about/test'>Лаба по Груздю</a>
               </div>
           </div>
       </header>
