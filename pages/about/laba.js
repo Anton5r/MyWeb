@@ -29,6 +29,7 @@ export default function Home() {
           </div>
       </header>
 
+      <p className={styles.flex_a}>Перед использованием, нужен доступ</p>
       <a className={styles.flex_a} href='https://drive.google.com/file/d/18FcnHJzaiZutscGQcX_zIR_cpaMJJJh5/view?usp=sharing'>Лаба №3</a>
 
     </>
