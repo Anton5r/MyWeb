@@ -109,7 +109,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "pages/about/test.jsx"  ],
+, "pages/about/test.js"  ],
   "exclude": [
     "node_modules"
   ]
