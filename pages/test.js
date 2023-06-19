@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import React from "react";
+import Image from 'next/image';
+import zacon from '../public/Закон кулона.svg'
 
 export default function TEST() {
 
@@ -17,7 +19,7 @@ export default function TEST() {
           <div>
               <a href="https://urtt.ru" className={styles.logo}>УРТК.ру</a>
               <div className={styles.headerr}>
-                  <a href="#">Главная</a>
+                  <a href="../">Главная</a>
                   <a href="../posts">Лабы по Кс</a>
                   <a href="../about/about">Тфу-пдф</a>
                   <a href="../ter ">Тер-Вер</a>
@@ -25,7 +27,15 @@ export default function TEST() {
               </div>
           </div>
       </header>
-  
+
+      <h1 className={styles.flex_text}>Тут будут ответы на экзамен</h1>
+
+      <p>Вопросы:</p>
+      <p>1)Электрическое поле. Напряженность электрического поля - это векторная физическая величина, характеризующая электрическое поле в данной точке и равная отношению силы F →, действующей на неподвижный малый по величине точечный заряд, помещённый в данную точку, к величине этого заряда q*</p>
+      <Image
+      src={zacon}
+      alt="Picture of the author"
+    />
 
     </>
   )

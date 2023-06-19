@@ -21,7 +21,7 @@ export default function Home() {
                   <a href="../posts">Лабы по Кс</a>
                   <a href="../about/about">Тфу-пдф</a>
                   <a href="../ter ">Тер-Вер</a>
-                  <a href="../test">Тест</a>
+                  <a href="../test">Экзамен</a>
                   <a href='../about/laba'>Лаба по Груздю</a>
               </div>
           </div>
