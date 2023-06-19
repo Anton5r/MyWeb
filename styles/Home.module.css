@@ -213,4 +213,10 @@ color: #fff;
   text-decoration: none;
   text-transform: uppercase;
   display: flex;
+
+  /*this centers the text horizontally*/
+  justify-content: center;
+  
+  /*this centers the text vertically*/
+  align-items: center;
 }
