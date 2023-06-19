@@ -48,17 +48,17 @@ export default function TEST() {
       </div>
 
       <p>3) Таблица степеней(русский, латинский)</p>
-      <div className={styles.flex_text}>
+      <div className={styles.imag}>
         <Image
         src={t1}
-        width={550}
+        width={500}
         alt="Error 404"
         />
       </div>
-      <div className={styles.flex_text}>
+      <div className={styles.imag}>
         <Image
         src={t2}
-        height={318}
+        height={300}
         />
       </div>
 
