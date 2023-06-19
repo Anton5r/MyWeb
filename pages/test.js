@@ -2,7 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import React from "react";
 import Image from 'next/image';
-import zacon from '../public/Закон кулона.svg'
+import zacon from '../public/Закон кулона.jpg'
 
 export default function TEST() {
 
@@ -32,10 +32,14 @@ export default function TEST() {
 
       <p>Вопросы:</p>
       <p>1)Электрическое поле. Напряженность электрического поля - это векторная физическая величина, характеризующая электрическое поле в данной точке и равная отношению силы F →, действующей на неподвижный малый по величине точечный заряд, помещённый в данную точку, к величине этого заряда q*</p>
-      <Image
-      src={zacon}
-      alt="Picture of the author"
-    />
+      <div className={styles.imag}>
+        <Image
+        src={zacon}
+        width={300}
+        height={60}
+        alt="Picture of the author"
+        />
+      </div>
 
     </>
   )

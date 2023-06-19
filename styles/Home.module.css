@@ -205,3 +205,12 @@ color: #fff;
 .topnav .icon {
   display: none;
 } 
+
+
+/** Для картинок **/
+.imag {
+  background-color: #ddd, 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+}
