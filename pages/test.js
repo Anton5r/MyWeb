@@ -51,14 +51,14 @@ export default function TEST() {
       <div className={styles.imag}>
         <Image
         src={t1}
-        width={500}
+        width={450}
         alt="Error 404"
         />
       </div>
       <div className={styles.imag}>
         <Image
         src={t2}
-        height={270}
+        height={265}
         />
       </div>
 
