@@ -58,7 +58,7 @@ export default function TEST() {
       <div className={styles.imag}>
         <Image
         src={t2}
-        height={300}
+        height={278}
         />
       </div>
 
