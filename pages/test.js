@@ -6,6 +6,8 @@ import zacon from '../public/Закон кулона.jpg'
 import tab from '../public/таблица-степеней.jpg'
 import rez from '../public/резистор.png'
 import kat from '../public/Катушка.png'
+import t1 from '../public/таб-1.jpg'
+import t2 from '../public/таб-2.jpg'
 
 export default function TEST() {
 
@@ -31,7 +33,7 @@ export default function TEST() {
           </div>
       </header>
 
-      <h1 className={styles.flex_text}>Тут будут ответы на экзамен</h1>
+      <h1 className={styles.flex_text}>ответы на экзамен по электротехники</h1>
 
       <p>Вопросы:</p>
       <p>1) Электрическое поле. Напряженность электрического поля - это векторная физическая величина, характеризующая электрическое поле в данной точке и равная отношению силы F →, действующей на неподвижный малый по величине точечный заряд, помещённый в данную точку, к величине этого заряда q*</p>
@@ -48,10 +50,15 @@ export default function TEST() {
       <p>3) Таблица степеней(русский, латинский)</p>
       <div className={styles.flex_text}>
         <Image
-        src={tab}
-        width={780}
-        height={450}
+        src={t1}
+        width={550}
         alt="Error 404"
+        />
+      </div>
+      <div className={styles.flex_text}>
+        <Image
+        src={t2}
+        height={318}
         />
       </div>
 
