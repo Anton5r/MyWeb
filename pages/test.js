@@ -4,6 +4,8 @@ import React from "react";
 import Image from 'next/image';
 import zacon from '../public/Закон кулона.jpg'
 import tab from '../public/таблица-степеней.jpg'
+import rez from '../public/резистор.png'
+import kat from '../public/Катушка.png'
 
 export default function TEST() {
 
@@ -55,6 +57,22 @@ export default function TEST() {
 
       <p>4) Последовательное соединение резисторов - это это соединение двух или более резисторов в форме цепи, в которой каждый отдельный резистор соединяется с другим отдельным резистором только в одной точке. Общее сопротивление R общ. При таком соединении, через все резисторы проходит один и тот же электрический ток.
       Чем больше элементов на данном участке электрической цепи, тем «труднее» току протекать через него.</p>
+      <div className={styles.flex_text}>
+        <Image
+        src={rez}
+        width={350}
+        height={50}
+        alt="Error 404"
+        />
+      </div>
+      <div className={styles.flex_text}>
+        <Image
+        src={kat}
+        width={400}
+        height={100}
+        alt="Error 404"
+        />
+      </div>
 
     </>
   )
