@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-
+import Image from 'next/image'
+import qrcode from '../public/qrcode.png'
 
 export default function Home() {
   return (
@@ -28,9 +29,17 @@ export default function Home() {
       </header>
 
     <div className={styles.flexcontainer}>
-      <h1>Привет 👋</h1>
       <h1>В скором времени появится ответы на экзамен!</h1>
     </div>
+
+    <div className={styles.qrcode}>
+      <Image
+      src={qrcode}
+      width={100}
+      alt='Error-Qr code'
+      />
+    </div>
+
     </>
   )
 }
