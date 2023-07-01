@@ -15,10 +15,10 @@ export default function About () {
         </p>
 
         <h2 className={styles.wrapper}>Тут пример работы и объяснение формул</h2>
-        <Image className={styles.img} src={pic} alt='Error PNG' width={600} height={750}/>
-        <Image className={styles.img} src={pic2} alt='Error PNG' width={600} height={750}/>
-        <Image className={styles.img} src={pic3} alt='Error PNG' width={600} height={750}/>
-        <Image className={styles.img} src={pic4} alt='Error PNG' width={600} height={500}/>
+        <Image className={styles.img} src={pic} alt='Error PNG' width={550} height={700}/>
+        <Image className={styles.img} src={pic2} alt='Error PNG' width={550} height={700}/>
+        <Image className={styles.img} src={pic3} alt='Error PNG' width={550} height={700}/>
+        <Image className={styles.img} src={pic4} alt='Error PNG' width={550} height={450}/>
 
         </>
     )
