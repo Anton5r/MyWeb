@@ -10,18 +10,6 @@ export default function About () {
     return (
         <>
 
-        <header className={styles.header}>
-          <div>
-              <a href="https://urtt.ru" className={styles.logo}>УРТК.ру</a>
-              <div className={styles.headerr}>
-                  <a href="../">Главная</a>
-                  <a href="../posts">Лабы по Кс</a>
-                  <a href="../about/about">Тфу-пдф</a>
-                  <a href="../ter ">Тер-Вер</a>
-              </div>
-          </div>
-        </header>
-
         <p className={styles.headerp}> Новы лабы
             <a href='https://drive.google.com/drive/folders/126F_FECC5_MvtO2mDkwVvjhd5HA1CcLN?usp=sharing'>Лабы</a>
         </p>

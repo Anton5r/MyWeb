@@ -12,18 +12,6 @@ export default function Posts () {
             <link rel="icon" href="/favicon.ico" />
         </Head>
 
-        <header className={styles.header}>
-          <div>
-              <a href="https://urtt.ru" className={styles.logo}>УРТК.ру</a>
-              <div className={styles.headerr}>
-                  <a href="../">Главная</a>
-                  <a href="../posts">Лабы по Кс</a>
-                  <a href="../about/about">Тфу-пдф</a>
-                  <a href="../ter ">Тер-Вер</a>
-              </div>
-          </div>
-        </header>
-
         <div className={styles.linkp}>
         <h3>Сделано</h3>
         <p className='sizefile'>

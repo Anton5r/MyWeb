@@ -15,20 +15,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      
-      <header className={styles.header}>
-          <div>
-              <a href="https://urtt.ru" className={styles.logo}>УРТК.ру</a>
-              <div className={styles.headerr}>
-                  <a href="../">Главная</a>
-                  <a href="../posts">Лабы по Кс</a>
-                  <a href="../about/about">Тфу-пдф</a>
-                  <a href="../ter ">Тер-Вер</a>
-                  <a href="../test">Тест</a>
-              </div>
-          </div>
-      </header>
-
       <p className={styles.flex_a}>Перед использованием, нужен доступ</p>
       <a className={styles.flex_a} href='https://drive.google.com/file/d/18FcnHJzaiZutscGQcX_zIR_cpaMJJJh5/view?usp=sharing'>Лаба №3</a>
 

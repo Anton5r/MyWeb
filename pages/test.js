@@ -19,19 +19,6 @@ export default function TEST() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
       </Head>
-      
-      <header className={styles.header}>
-          <div>
-              <a href="https://urtt.ru" className={styles.logo}>УРТК.ру</a>
-              <div className={styles.headerr}>
-                  <a href="../">Главная</a>
-                  <a href="../posts">Лабы по Кс</a>
-                  <a href="../about/about">Тфу-пдф</a>
-                  <a href="../ter ">Тер-Вер</a>
-                  <a href="../test">Тест</a>
-              </div>
-          </div>
-      </header>
 
       <h1 className={styles.flex_text}>ответы на экзамен по электротехники</h1>
 
