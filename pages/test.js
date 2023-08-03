@@ -1,15 +1,20 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import React from "react";
-import Image from 'next/image';
-import zacon from '../public/Закон кулона.jpg'
-import tab from '../public/таблица-степеней.jpg'
-import rez from '../public/резистор.png'
-import kat from '../public/Катушка.png'
-import t1 from '../public/таб-1.jpg'
-import t2 from '../public/таб-2.jpg'
+import emailjs from 'emailjs-com';
 
-export default function TEST() {
+export default function ContactUs() {
+
+  function sendEmail(e) {
+    e.preventDefault();    //This is important, i'm not sure why, but the email won't send without it
+
+    emailjs.sendForm('service_71p2n6i', 'template_waw3tbc', e.target, 'XUi4bOe33oI4zGpmI')
+      .then((result) => {
+          window.location.reload()  //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior) 
+      }, (error) => {
+          console.log(error.text);
+      });
+  }
 
   return (
     <>
@@ -21,8 +26,19 @@ export default function TEST() {
       </Head>
 
       <h2 className={styles.text}>Педложение по обновление сайта</h2>
+
+    <form className="contact-form" onSubmit={sendEmail}>
+      <input type="hidden" name="contact_number" />
+      <label>Name</label>
+      <input type="text" name="from_name" />
+      <label>Email</label>
+      <input type="email" name="from_email" />
+      <label>Subject</label>
+      <input type="text" name="subject" />
+      <label>Message</label>
+      <textarea name="html_message" />
+      <input type="submit" value="Send" />
+    </form>
     </>
   )
-}
-
-
+} 
