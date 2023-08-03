@@ -16,8 +16,9 @@ export default function Home() {
       </Head>
 
     <div className={styles.flexcontainer}>
-      <h1>В скором времени будет 1 сентебря!</h1>
+      <h1>В скором времени будет</h1>
     </div>
+    <h1 className={styles.flexcontainer_2}>1 сентебря!</h1>
 
     <ul>
       <li>На сайте добавил поле для вашых предложений. Пока в тестовом режиме</li>

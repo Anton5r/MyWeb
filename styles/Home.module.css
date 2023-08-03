@@ -87,7 +87,19 @@ color: #fff;
   /*this centers the text vertically*/
   align-items: center;
 
-  height: 200px;
+  height: auto;
+
+}
+.flexcontainer_2 {
+  display: flex;
+
+  /*this centers the text horizontally*/
+  justify-content: center;
+
+  /*this centers the text vertically*/
+  align-items: center;
+
+  height: auto;
 
 }
 
