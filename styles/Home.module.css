@@ -237,3 +237,12 @@ color: #fff;
 .text {
   text-align: center;
 }
+
+.formin {
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.formin_lab {
+  margin-top: 10px;
+}
