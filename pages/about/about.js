@@ -1,25 +1,31 @@
-import styles from '../../styles/Home.module.css'
-import pic from '../../public/tfy-1.jpg'
-import pic2 from '../../public/tfy-2.jpg'
-import pic3 from '../../public/tfy-3.jpg'
-import pic4 from '../../public/tfy-4.jpg'
-import Image from 'next/image'
+import React from 'react';
+import emailjs from 'emailjs-com';
 
+export default function ContactUs() {
 
-export default function About () {
-    return (
-        <>
+  function sendEmail(e) {
+    e.preventDefault();    //This is important, i'm not sure why, but the email won't send without it
 
-        <p className={styles.headerp}> Новы лабы
-            <a href='https://drive.google.com/drive/folders/126F_FECC5_MvtO2mDkwVvjhd5HA1CcLN?usp=sharing'>Лабы</a>
-        </p>
+    emailjs.sendForm('service_71p2n6i', 'template_waw3tbc', e.target, 'XUi4bOe33oI4zGpmI')
+      .then((result) => {
+          window.location.reload()  //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior) 
+      }, (error) => {
+          console.log(error.text);
+      });
+  }
 
-        <h2 className={styles.wrapper}>Тут пример работы и объяснение формул</h2>
-        <Image className={styles.img} src={pic} alt='Error PNG' width={550} height={700}/>
-        <Image className={styles.img} src={pic2} alt='Error PNG' width={550} height={700}/>
-        <Image className={styles.img} src={pic3} alt='Error PNG' width={550} height={700}/>
-        <Image className={styles.img} src={pic4} alt='Error PNG' width={550} height={450}/>
-
-        </>
-    )
+  return (
+    <form className="contact-form" onSubmit={sendEmail}>
+      <input type="hidden" name="contact_number" />
+      <label>Name</label>
+      <input type="text" name="from_name" />
+      <label>Email</label>
+      <input type="email" name="from_email" />
+      <label>Subject</label>
+      <input type="text" name="subject" />
+      <label>Message</label>
+      <textarea name="html_message" />
+      <input type="submit" value="Send" />
+    </form>
+  );
 }

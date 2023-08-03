@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
 
     <div className={styles.flexcontainer}>
-      <h1>В скором времени появится ответы на экзамен!</h1>
+      <h1>В скором времени будет 1 сентебря!</h1>
     </div>
 
 
