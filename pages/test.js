@@ -28,6 +28,10 @@ export default function ContactUs() {
       <h2 className={styles.text}>Педложение по обновление сайта</h2>
       <h3>Так как он ещё в разработке может не корректно работать</h3>
 
+      <ul>
+        <li className={styles.kl}>Почту лучше указать, если хотите получить ответ</li>
+      </ul>
+
     <form className="contact-form" onSubmit={sendEmail}>
       <input type="hidden" name="contact_number" />
       <label className={styles.formin}>Имя</label>
