@@ -42,6 +42,8 @@ export default function ContactUs() {
       <textarea name="message" className={styles.formin_lab}/><br/>
       <input type="submit" value="Отправить" className={styles.formin_lab}/>
     </form>
+
+    {/* <iframe src="https://viewer.typebot.io/my-typebot-5gw7fyd" className={styles.bot}></iframe> */}
     </>
   )
 } 

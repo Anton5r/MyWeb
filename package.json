@@ -10,10 +10,13 @@
   },
   "dependencies": {
     "@szhsin/react-menu": "^3.5.2",
+    "@typebot.io/nextjs": "^0.1.16",
+    "@typebot.io/react": "^0.1.16",
     "@vercel/analytics": "^1.0.1",
     "emailjs-com": "^3.2.0",
     "eslint": "8.35.0",
     "eslint-config-next": "13.2.4",
+    "https": "^1.0.0",
     "next": "^13.2.4",
     "nextjs": "^0.0.3",
     "react": "18.2.0",
