@@ -26,8 +26,6 @@ export default function ContactUs() {
       </Head>
 
       <h2 className={styles.text}>Педложение по обновление сайта</h2>
-      <h3>Так как он ещё в разработке может не корректно работать</h3>
-
       <ul>
         <li className={styles.kl}>Почту лучше указать, если хотите получить ответ</li>
         <li>Добавил бота. Тоже в тестовом режиме <a className={styles.kla} href='../telbot'>Бот</a></li>
