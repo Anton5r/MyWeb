@@ -24,8 +24,6 @@ export default function Home() {
       <li>На сайте добавил поле для вашых предложений. Пока в тестовом режиме</li>
     </ul>
 
-
-
       <div className={styles.qrcode}>
         <Image 
         src={vk}
@@ -39,7 +37,6 @@ export default function Home() {
           alt='Error-Qr code'
         />
       </div>
-
     </>
   )
 }
