@@ -261,8 +261,18 @@ color: #fff;
 
 .kl {
   font-size: 18px;
+  text-decoration: none;
 }
 
+.kla {
+  text-decoration: underline;
+  text-decoration: none;  
+  color: #fff;
+}
+
+.kla:hover {
+  color: rgb(32, 229, 196);
+}
 
  .bot {
   width: 100%;
