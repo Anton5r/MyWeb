@@ -2,7 +2,6 @@ import '../styles/globals.css';
 import { Analytics } from '@vercel/analytics/react';
 import styles from '../styles/Home.module.css';
 import React from 'react';
-import ChatwootWidget from './testbot'
 
 export default function App({ Component, pageProps }) {
   return (
@@ -21,9 +20,10 @@ export default function App({ Component, pageProps }) {
           </div>
       </header>
 
+      <div></div>
+
       <Component {...pageProps} />
       <Analytics />
-      <ChatwootWidget/>
     </>
   );
 }
