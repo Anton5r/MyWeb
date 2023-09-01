@@ -28,7 +28,6 @@ export default function ContactUs() {
       <h2 className={styles.text}>Педложение по обновление сайта</h2>
       <ul>
         <li className={styles.kl}>Почту лучше указать, если хотите получить ответ</li>
-        <li>Добавил бота. Тоже в тестовом режиме <a className={styles.kla} href='../telbot'>Бот</a></li>
       </ul>
 
     <form className="contact-form" onSubmit={sendEmail}>

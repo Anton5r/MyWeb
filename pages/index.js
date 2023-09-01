@@ -22,6 +22,7 @@ export default function Home() {
 
     <ul>
       <li>На сайте добавил поле для вашых предложений. Пока в тестовом режиме</li>
+      <li>Добавил также бота, пока в стадии разработки<a className={styles.kla} href='../telbot'> Бот</a></li>
     </ul>
 
       <div className={styles.qrcode}>

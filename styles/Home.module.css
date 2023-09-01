@@ -272,6 +272,8 @@ color: #fff;
 
 .kla:hover {
   color: rgb(32, 229, 196);
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
  .bot {
