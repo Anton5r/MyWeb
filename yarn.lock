@@ -1718,10 +1718,10 @@
   resolved "https://registry.npmjs.org/@typebot.io/nextjs/-/nextjs-0.1.16.tgz"
   integrity sha512-j5W4E1oDZlzcp3TB/kATYfWhB4IyPOXi9Xh743lHezX8fCpXramTdrAYf232928BZobjXm4lx29EogSTEpmyfQ==
 
-"@typebot.io/react@^0.1.16":
-  version "0.1.16"
-  resolved "https://registry.npmjs.org/@typebot.io/react/-/react-0.1.16.tgz"
-  integrity sha512-UxZhibfTKgSNRMyrf1Ao7v+PA9Wn0auh5ra4yXB14sN4G+qM+stxmVPecOci3H+gEs2XPa8OymvK/r9E3dowWA==
+"@typebot.io/react@^0.1.26":
+  version "0.1.26"
+  resolved "https://registry.npmjs.org/@typebot.io/react/-/react-0.1.26.tgz"
+  integrity sha512-3RiLcXqga+Vy5NaphuDdM760RaEqFfXsRCksZIcMojFBRuDWFE838N5qMJKTgX3lSFVyyD+uRgGBA3OIx9Z/xw==
   dependencies:
     "@ladle/react" "2.5.1"
 

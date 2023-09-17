@@ -4,7 +4,7 @@ export default function Ter () {
     return (
         <>
             <div className={styles.topnav}>
-            <iframe src="https://viewer.typebot.io/my-typebot-5gw7fyd" className={styles.bot}></iframe>
+            <iframe src="https://typebot.io/bot-urttk" className={styles.bot}></iframe>
             </div>
         </>
     )
