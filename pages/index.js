@@ -15,32 +15,18 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-    <div className={styles.flexcontainer}>
-      <h1>В скором времени будет</h1>
-    </div>
-    <h1 className={styles.flexcontainer_2}>1 сентебря!</h1>
-
-    <ul>
-      <li>На сайте добавил поле для вашых предложений. Пока в тестовом режиме</li>
-      <li>Добавил также бота, пока в стадии разработки<a className={styles.kla} href='../telbot'> Бот</a></li>
-    </ul>
-
-      <div className={styles.qrcode}>
-        <Image 
-        src={vk}
-        width={100}
-        alt='Error Qr-code'
-        />
-        <Image
-          className={styles.qrcode_vk}
-          src={qrcode}
-          width={100}
-          alt='Error-Qr code'
-        />
+      <h1 className={styles.flexcontainer}>Сайт временно закрыт</h1>
+      
+      <div className={styles.flexcontainer}>
+      <p> Посетители</p>
+      <img
+      src="https://iplogger.org/ZdJba"
+      alt="new"
+      />
       </div>
+
     </>
   )
 
   
 }
-
