@@ -1,6 +1,6 @@
 html {
-  background-image: url('https://idei.club/uploads/posts/2022-09/1662086911_1-idei-club-p-komnata-s-yelkoi-oboi-1.jpg');
-  color: #fff;
+  background-image: url('https://img3.akspic.ru/previews/0/2/6/2/3/132620/132620-rozhdestvenskie_ukrasheniya-derevo-rozhdestvenskie_ogni-osveshhenie-art-x750.jpg');
+  color: #fdf2f2;
   font-size: 20px;
   background-repeat: no-repeat;
   background-position: center center;
@@ -15,12 +15,10 @@ html {
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  backdrop-filter: blur(5px);
 }
 
 body {
 /*  background: linear-gradient(to bottom, #1c1c1d, rgb(35, 34, 34)); */
-
 }
 
 #__next {

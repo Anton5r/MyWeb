@@ -1,8 +1,10 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Image from 'next/image'
-import qrcode from '../public/qrcode.png'
-import vk from '../public/vk.png'
+import v1 from '../public/1.jpg'
+import v2 from '../public/2.jpg'
+import v3 from '../public/3.jpg'
+
 
 
 export default function Home() {
@@ -15,7 +17,38 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1 className={styles.flexcontainer}>Ты самая лучшая</h1>
+      <h1 className={styles.flexcontainer}>!!!С новыйм годом!!!</h1>
+      <h1 className={styles.flexcontainer}>Это моё пожелание тебе</h1>
+      <h1 className={styles.flexcontainer}>Никогда не сдавайся, не переживай, не расстраивайся по пустякам.
+       Желаю всего наилучшего и хорошего в этом году тебе, чтобы все твои желание сбылись,
+       чтобы всё наладилось у тебя как в личной жизни, так и с другими людьми.
+       Чтобы ни о чем плохом не думала так как ты самый лучший человек которого я встречал в своей жизни. 
+       Не надо себя загонять из-за слов других людей и слушать их. Так же не плачь больше из-за других людей, они того не стоят. 
+       Ты самая красивая, хорошая, добрая и так же самый искренний человек, которого я знаю. Желаю чтобы у тебя всё было прекрасно в жизни.</h1>
+
+       <Image
+      src={v1}
+      width={500}
+      height={500}
+      alt="Picture of the author"
+      className={styles.img}
+    />
+
+      <Image
+      src={v2}
+      width={500}
+      height={500}
+      alt="Picture of the author"
+      className={styles.img}
+    />
+
+      <Image
+      src={v3}
+      width={500}
+      height={500}
+      alt="Picture of the author"
+      className={styles.img}
+    />
 
     </>
   )
