@@ -15,15 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1 className={styles.flexcontainer}>Сайт временно закрыт</h1>
-      
-      <div className={styles.flexcontainer}>
-      <p> Посетители</p>
-      <img
-      src="https://iplogger.org/ZdJba"
-      alt="new"
-      />
-      </div>
+      <h1 className={styles.flexcontainer}>Ты самая лучшая</h1>
 
     </>
   )
