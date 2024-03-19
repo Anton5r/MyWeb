@@ -7,7 +7,7 @@ import ChatwootWidget from './testbot'
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <header className={styles.header}>
+      {/* <header className={styles.header}>
           <div>
               <a href="https://urtt.ru" className={styles.logo}>УРТК.ру</a>
               <div className={styles.headerr}>
@@ -19,7 +19,7 @@ export default function App({ Component, pageProps }) {
                   <a href="../test">Обновление</a>
               </div>
           </div>
-      </header>
+      </header> */}
 
       <Component {...pageProps} />
       <Analytics />
