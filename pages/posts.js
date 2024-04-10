@@ -1,7 +1,7 @@
 import styles from '../styles/Home.module.css'
 import Head from 'next/head'
 
-import React from 'react'
+// import React from 'react'
 
 export default function Posts () {
     return (
@@ -29,7 +29,7 @@ export default function Posts () {
         <h3>Оформление должно быть по госту</h3>
         <p className={styles.sizefile}><a className={styles.file} href="https://drive.google.com/file/d/1F9eU9P3wFFdsCjc41-pVF4U7P2CMz4rP/view?usp=sharing">ГОСТ по файлам</a></p>
 
-        <h3>У кого нет ворда то вот файл с русофикацией</h3>
+        {/* <h3>У кого нет ворда то вот файл с русофикацией</h3>
         <p><a className={styles.file} href='https://www.microsoft.com/en-us/download/details.aspx?id=49117'>Сам файл</a></p>
         <iframe
             width="560"
@@ -41,7 +41,7 @@ export default function Posts () {
         ></iframe>
         <p className={styles.sizefile}>Комманды: </p>
         <p className={styles.sizefile}>reg add "HKCU\Software\Microsoft\Office\16.0\Common\ExperimentConfigs\Ecs" /v "CountryCode" /t REG_SZ /d "std::wstring|US" /f</p>
-        <p className={styles.sizefile}>.\setup.exe /configure .\configuration-Office2021Enterprise.xml</p>
+        <p className={styles.sizefile}>.\setup.exe /configure .\configuration-Office2021Enterprise.xml</p> */}
 
         </div>
                 
