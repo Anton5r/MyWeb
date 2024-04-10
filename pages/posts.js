@@ -26,11 +26,11 @@ export default function Posts () {
         <a className={styles.file} href="#">7) Лаба</a><br/>
         </p>
 
-        {/* <h3>Оформление должно быть по госту</h3>
+        <h3>Оформление должно быть по госту</h3>
         <p className={styles.sizefile}><a className={styles.file} href="https://drive.google.com/file/d/1F9eU9P3wFFdsCjc41-pVF4U7P2CMz4rP/view?usp=sharing">ГОСТ по файлам</a></p>
 
         <h3>У кого нет ворда то вот файл с русофикацией</h3>
-        <p><a className={styles.file} href='https://www.microsoft.com/en-us/download/details.aspx?id=49117'>Сам файл</a></p> */}
+        <p><a className={styles.file} href='https://www.microsoft.com/en-us/download/details.aspx?id=49117'>Сам файл</a></p>
         <iframe
             width="560"
             height="315"
