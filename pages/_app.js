@@ -13,10 +13,6 @@ export default function App({ Component, pageProps }) {
               <div className={styles.headerr}>
                   <a href="../">Главная</a>
                   <a href="../posts">Лабы</a>
-                  {/* <a href="../about/about">Тфу-пдф</a>
-                  <a href="../ter ">Тер-Вер</a>
-                  <a href='../about/laba'>Лаба по Груздю</a>
-                  <a href="../test">Обновление</a> */}
               </div>
           </div>
       </header>
