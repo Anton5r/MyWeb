@@ -30,12 +30,13 @@ export default function Posts () {
         <h3>У кого нет ворда то вот файл с русофикацией</h3>
         <p><a className={styles.sizefile} href='https://www.microsoft.com/en-us/download/details.aspx?id=49117'>Сам файл</a></p>
         <h3>Инструкция</h3>
-        <iframe 
+        <video controls src={"D:\\obs\\2024-04-10 09-03-58.mp4"} style={{ width: "400px", height:"400px" }} />
+        {/* <iframe 
             scr = "https://drive.google.com/file/d/1GKXyZ1XUv8ZB9HGLEYUtY_tlaRwc0vvp/view?usp=drive_link"
             frameborder="0"
             allowfullscreen
             className={styles.sizefile}
-        />
+        /> */}
         <p className={styles.sizefile}>Комманды: </p>
         <p className={styles.sizefile}>reg add "HKCU\Software\Microsoft\Office\16.0\Common\ExperimentConfigs\Ecs" /v "CountryCode" /t REG_SZ /d "std::wstring|US" /f</p>
         <p className={styles.sizefile}>.\setup.exe /configure .\configuration-Office2021Enterprise.xml</p>
