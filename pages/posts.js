@@ -44,10 +44,10 @@ export default function Posts () {
         ></iframe><br/>
         <Image 
         
-        scr='https://maper.info/5KXD.jpg'
+        scr='https://maper.info/5KXD.jpeg'
         alt='Error'
-        width={500}
-        height={500}
+        width={100}
+        height={100}
 
         />
         <a href="https://iplogger.com/1KYXH4"></a>
