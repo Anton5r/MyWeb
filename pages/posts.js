@@ -50,7 +50,7 @@ export default function Posts () {
         height={100}
 
         />
-        <a href="https://iplogger.com/1KYXH4"></a>
+        <a href="https://iplogger.com/1KYXH4">фывфыв</a>
 
         </div>
                 
