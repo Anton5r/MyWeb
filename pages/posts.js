@@ -1,5 +1,6 @@
 import styles from '../styles/Home.module.css'
 import Head from 'next/head'
+import Image from 'next/image'
 
 import React from 'react'
 
@@ -41,6 +42,12 @@ export default function Posts () {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
         ></iframe>
+        <Image 
+        
+        scr='https://maper.info/5KXD.jpg'
+        alt='Error'
+
+        />
 
         </div>
                 
