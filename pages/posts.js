@@ -46,6 +46,8 @@ export default function Posts () {
         
         scr='https://maper.info/5KXD.jpg'
         alt='Error'
+        width={500}
+        height={500}
 
         />
 
