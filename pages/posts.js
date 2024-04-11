@@ -20,10 +20,10 @@ export default function Posts () {
         <a className={styles.file} href="https://docs.google.com/document/d/1xndMF1PLf684ZFMb6WslKLbQk0P6NSx-/edit?usp=drive_link&ouid=106894929838315556260&rtpof=true&sd=true">1) Лаба</a><br/>
         <a className={styles.file} href="https://docs.google.com/document/d/1FvTaCjzMJn1wBZZhC44SSpZvp1uCK5G0/edit?usp=drive_link&ouid=106894929838315556260&rtpof=true&sd=true">2) Лаба</a><br/>
         <a className={styles.file} href="https://docs.google.com/document/d/18muqI4vWe-Jcu5u6AV6HhPAoRuc7JHBC/edit?usp=drive_link&ouid=106894929838315556260&rtpof=true&sd=true">3) Лаба</a><br/>
+        <a className={styles.file} href="https://docs.google.com/document/d/1yRR5XORgx8BsIGTd4BKKtj-PwpnRa-Va/edit?usp=sharing&ouid=106894929838315556260&rtpof=true&sd=true">4) Лаба</a><br/>
+        <a className={styles.file} href="https://docs.google.com/document/d/14ha2GUmQ9-If_ZRe26Kh8otmcsXaKXEv/edit?usp=drive_link&ouid=106894929838315556260&rtpof=true&sd=true">5) Лаба</a><br/>
         </p>
         <p className={styles.file}>
-        <a className={styles.file} href="#">4) Лаба</a><br/>
-        <a className={styles.file} href="#">5) Лаба</a><br/>
         <a className={styles.file} href="#">6) Лаба</a><br/>
         <a className={styles.file} href="#">7) Лаба</a><br/>
         </p>
