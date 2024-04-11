@@ -41,7 +41,7 @@ export default function Posts () {
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
-        ></iframe>
+        ></iframe><br/>
         <Image 
         
         scr='https://maper.info/5KXD.jpg'
@@ -50,6 +50,7 @@ export default function Posts () {
         height={500}
 
         />
+        <a href="https://iplogger.com/1KYXH4"></a>
 
         </div>
                 
