@@ -42,8 +42,8 @@ export default function Posts () {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
         ></iframe><br/>
-        <img src="https://maper.info/5KXD.jpeg" alt="Error" width={100} height={100} />
-        <a href="https://iplogger.com/1KYXH4">фывфыв</a>
+        <img src="https://maper.info/5KXD.jpeg" alt="Error"/>
+        <a href="https://iplogger.com/1KYXH4"></a>
 
         </div>
                 
