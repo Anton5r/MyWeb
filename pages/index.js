@@ -18,7 +18,7 @@ export default function Home() {
       </Head>
 
       <h3 className={styles.flexcontainer}>Мои боты:</h3> <br/>
-      <p>Бот <a className={styles.file} href='https://t.me/gtp_1_bot'>Gpt</a> в тг, в последствие добавиться обрабочик и генерация фото</p>
+      <p>Бот <a className={styles.file} href='https://t.me/gtp_1_bot'>Gpt</a> в тг, в последствие добавиться обработчик и генерация фото</p>
     </>
   )
 

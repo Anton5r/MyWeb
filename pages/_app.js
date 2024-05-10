@@ -9,7 +9,7 @@ export default function App({ Component, pageProps }) {
     <>
       <header className={styles.header}>
           <div>
-              <a href="https://urtt.ru" className={styles.logo}>УРТК.ру</a>
+              {/* <a href="https://urtt.ru" className={styles.logo}>УРТК.ру</a> */}
               <div className={styles.headerr}>
                   <a href="../">Главная</a>
                   <a href="../posts">Лабы</a>
