@@ -17,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1 className={styles.flexcontainer}>❗❗Если есть уже выполненые лабы и вы готовы делиться кидайте мне :)❗❗</h1>
+      <h1 className={styles.flexcontainer}>Мои боты <a href='https://t.me/gtp_1_bot'>Бот Gpt в тг</a> </h1>
     </>
   )
 
