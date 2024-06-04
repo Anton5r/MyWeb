@@ -16,8 +16,34 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-    </>
-  )
 
-  
+      <h2>Пользоваться Tinkoff pay в обход root</h2><br/>
+      <li>
+        <p>Скрыть Magisk в его настройках</p>
+        {/* Тут кортинка */}
+      </li>
+      <li>
+        <p>Активировать Zygisk</p>
+        {/* Тут кортинка */}
+      </li>
+      <li>
+        <p>Установить модуль <a href='https://github.com/kdrag0n/safetynet-fix/releases/download/v2.4.0/safetynet-fix-v2.4.0.zip'>Universal SafetyNet Fix</a></p>
+        {/* Тут кортинка */}
+      </li>
+      <li>
+        <p>Установить модуль <a href='https://github.com/LSPosed/LSPosed.github.io/releases/download/shamiko-300/Shamiko-v1.0.1-300-release.zip'>Shamiko</a></p>
+        <p>Активировать DenyList при этом не нужно! Вместо него модуль Shamiko</p>
+        {/* Тут кортинка */}
+      </li>
+      <li>
+        <p>В настройках DenyList поставить галку у приложения банка(первого ползунка достаточно)</p>
+        {/* Тут кортинка */}
+      </li>
+      <li>
+        <p>Очистить данные у приложения</p>
+        {/* Тут кортинка */}
+      </li>
+
+      </>
+  );
 }
