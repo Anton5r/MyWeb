@@ -16,9 +16,6 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <h3 className={styles.flexcontainer}>Мои боты:</h3> <br/>
-      <p>Бот <a className={styles.file} href='https://t.me/gtp_1_bot'>Gpt</a> в тг, в последствие добавиться обработчик и генерация фото</p>
     </>
   )
 
